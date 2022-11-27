@@ -25,6 +25,7 @@ function getRandomInt(max) {
 form.addEventListener("submit",(e) => {
     e.preventDefault();
     
+    const index = getRandomInt(3);
     if (index == 0)
         window.open("https://wikipedia.org/wiki/Special:Random")
     else if (index == 1)

@@ -25,7 +25,10 @@ function getRandomInt(max) {
 form.addEventListener("submit",(e) => {
     e.preventDefault();
     
-    //window.open("https://wikipedia.org/wiki/Special:Random")
-    //window.open("https://www.reddit.com/r/random")
-    radomYoutube();
+    if (index == 0)
+        window.open("https://wikipedia.org/wiki/Special:Random")
+    else if (index == 1)
+        window.open("https://www.reddit.com/r/random")
+    else if (index == 2)
+        radomYoutube();
 });

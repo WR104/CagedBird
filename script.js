@@ -3,7 +3,7 @@ const form = document.querySelector('form');
 
 function radomYoutube(){
     try{
-        fetch('https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit=1')
+        fetch('https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit=1')
         .then((response) => response.json())
         .then(text => {
             console.log(text.query.random[0].title)

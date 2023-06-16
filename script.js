@@ -1,1 +1,82 @@
-const _0x57a1f1=_0x42a6;(function(_0x226976,_0x20322c){const _0x3a5eb8=_0x42a6,_0x346365=_0x226976();while(!![]){try{const _0x260add=-parseInt(_0x3a5eb8(0xbe))/0x1+-parseInt(_0x3a5eb8(0xc5))/0x2+-parseInt(_0x3a5eb8(0xba))/0x3+parseInt(_0x3a5eb8(0xb4))/0x4+-parseInt(_0x3a5eb8(0xc2))/0x5+parseInt(_0x3a5eb8(0xbb))/0x6+-parseInt(_0x3a5eb8(0xcb))/0x7*(-parseInt(_0x3a5eb8(0xcf))/0x8);if(_0x260add===_0x20322c)break;else _0x346365['push'](_0x346365['shift']());}catch(_0x1adbb7){_0x346365['push'](_0x346365['shift']());}}}(_0x28de,0xcba26));const form=document[_0x57a1f1(0xc9)](_0x57a1f1(0xc7));function radomYoutube(){const _0x1570ab=_0x57a1f1;try{fetch(_0x1570ab(0xcc))[_0x1570ab(0xce)](_0x174b0d=>_0x174b0d['json']())[_0x1570ab(0xce)](_0x59b32b=>{const _0x31b74f=_0x1570ab;console[_0x31b74f(0xca)](_0x59b32b['query']['random'][0x0][_0x31b74f(0xd0)]);const _0x495dbb=_0x59b32b[_0x31b74f(0xb9)][_0x31b74f(0xc6)][0x0][_0x31b74f(0xd0)][_0x31b74f(0xd1)]('\x20'),_0x33a07b=_0x495dbb[_0x31b74f(0xd6)]('+'),_0x542663=_0x31b74f(0xc3)+_0x33a07b;window[_0x31b74f(0xbf)](_0x542663);});}catch(_0x294906){console[_0x1570ab(0xca)]('error');}}function getRandomInt(_0x2b427b){const _0x3e4a40=_0x57a1f1;return Math[_0x3e4a40(0xc0)](Math['random']()*_0x2b427b);}function _0x42a6(_0xe8635e,_0x5437d4){const _0x28de94=_0x28de();return _0x42a6=function(_0x42a6f4,_0x2b099b){_0x42a6f4=_0x42a6f4-0xb3;let _0x2d11cf=_0x28de94[_0x42a6f4];return _0x2d11cf;},_0x42a6(_0xe8635e,_0x5437d4);}form[_0x57a1f1(0xb3)]('submit',_0xa6a822=>{const _0x5343e1=_0x57a1f1;_0xa6a822[_0x5343e1(0xd5)]();const _0x3fc595=getRandomInt(0x3);if(_0x3fc595==0x0)window[_0x5343e1(0xbf)]('https://wikipedia.org/wiki/Special:Random');else{if(_0x3fc595==0x1)window['open']('https://www.reddit.com/r/random');else{if(_0x3fc595==0x2)radomYoutube();}}});const faceButton=document[_0x57a1f1(0xc9)](_0x57a1f1(0xb8)),faceContainer=document['querySelector'](_0x57a1f1(0xd4)),containerCoords=document[_0x57a1f1(0xc9)](_0x57a1f1(0xd3)),mouseCoords=containerCoords[_0x57a1f1(0xd2)]();faceButton[_0x57a1f1(0xb3)](_0x57a1f1(0xb7),function(_0x1b42de){const _0x42074a=_0x57a1f1,_0x248588=_0x1b42de[_0x42074a(0xc4)]-containerCoords[_0x42074a(0xb5)],_0x405c43=_0x1b42de['pageY']-containerCoords[_0x42074a(0xd7)];TweenMax['to'](faceButton,0.3,{'x':(_0x248588-mouseCoords[_0x42074a(0xb6)]/0x2)/mouseCoords[_0x42074a(0xb6)]*0x32,'y':(_0x405c43-mouseCoords['height']/0x2)/mouseCoords[_0x42074a(0xb6)]*0x32,'ease':Power4[_0x42074a(0xbd)]});}),faceButton[_0x57a1f1(0xb3)]('mousemove',function(_0x251d86){const _0x17b908=_0x57a1f1,_0x45225d=_0x251d86[_0x17b908(0xc4)]-containerCoords[_0x17b908(0xb5)],_0x4b66ab=_0x251d86[_0x17b908(0xc1)]-containerCoords[_0x17b908(0xd7)];TweenMax['to'](faceContainer,0.3,{'x':(_0x45225d-mouseCoords[_0x17b908(0xb6)]/0x2)/mouseCoords['width']*0x19,'y':(_0x4b66ab-mouseCoords[_0x17b908(0xbc)]/0x2)/mouseCoords[_0x17b908(0xb6)]*0x19,'ease':Power4['easeOut']});}),faceButton[_0x57a1f1(0xb3)](_0x57a1f1(0xc8),function(_0x436643){TweenMax['to'](faceButton,0.3,{'scale':0.975});}),faceButton[_0x57a1f1(0xb3)](_0x57a1f1(0xcd),function(_0x196cf5){TweenMax['to'](faceButton,0.3,{'x':0x0,'y':0x0,'scale':0x1}),TweenMax['to'](faceContainer,0.3,{'x':0x0,'y':0x0,'scale':0x1});});function _0x28de(){const _0x1fe987=['random','form','mouseenter','querySelector','log','7uXqUVr','https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&origin=*&rnnamespace=0&rnlimit=1','mouseleave','then','18432664IEJjqM','title','split','getBoundingClientRect','#container','.face-container','preventDefault','join','offsetTop','addEventListener','4208576hEprsp','offsetLeft','width','mousemove','.face-button','query','3475911OrLfJA','1966944PoBHhW','height','easeOut','351135aJRIDg','open','floor','pageY','1536405tTPddX','https://www.youtube.com/results?search_query=','pageX','2065824RMYXhh'];_0x28de=function(){return _0x1fe987;};return _0x28de();}
+const form = document.querySelector('form');
+
+function radomYoutube() {
+    try {
+        fetch('https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&origin=*&rnnamespace=0&rnlimit=1')
+            .then((response) => response.json())
+            .then(text => {
+                console.log(text.query.random[0].title)
+                const randomTerm = text.query.random[0].title.split(' ');
+                const q = randomTerm.join('+');
+                const youtubeUrl = 'https://www.youtube.com/results?search_query=' + q;
+                window.open(youtubeUrl)
+            })
+    } catch (e) {
+        console.log("error")
+    }
+}
+
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const index = getRandomInt(3);
+    if (index == 0)
+        window.open("https://wikipedia.org/wiki/Special:Random")
+    else if (index == 1)
+        window.open("https://www.reddit.com/r/random")
+    else if (index == 2)
+        radomYoutube();
+});
+
+
+const faceButton = document.querySelector('.face-button');
+const faceContainer = document.querySelector('.face-container');
+const containerCoords = document.querySelector('#container');
+const mouseCoords = containerCoords.getBoundingClientRect();
+
+faceButton.addEventListener('mousemove', function(e) {
+  const mouseX = e.pageX - containerCoords.offsetLeft;
+  const mouseY = e.pageY - containerCoords.offsetTop;
+  
+  TweenMax.to(faceButton, 0.3, {
+     x: (mouseX - mouseCoords.width / 2) / mouseCoords.width * 50,
+     y: (mouseY - mouseCoords.height / 2) / mouseCoords.width * 50,
+     ease: Power4.easeOut
+   })
+});
+
+faceButton.addEventListener('mousemove', function(e) {
+  const mouseX = e.pageX - containerCoords.offsetLeft;
+  const mouseY = e.pageY - containerCoords.offsetTop;
+  
+  TweenMax.to(faceContainer, 0.3, {
+     x: (mouseX - mouseCoords.width / 2) / mouseCoords.width * 25,
+     y: (mouseY - mouseCoords.height / 2) / mouseCoords.width * 25,
+     ease: Power4.easeOut
+   })
+});
+
+faceButton.addEventListener('mouseenter', function(e) {
+  TweenMax.to(faceButton, 0.3, {
+    scale: 0.975
+  })
+});
+
+faceButton.addEventListener('mouseleave', function(e) {
+  TweenMax.to(faceButton, 0.3, {
+    x: 0,
+    y: 0,
+    scale: 1
+  })
+  
+  TweenMax.to(faceContainer, 0.3, {
+    x: 0,
+    y: 0,
+    scale: 1
+  })
+});
